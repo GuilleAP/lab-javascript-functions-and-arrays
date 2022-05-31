@@ -294,8 +294,8 @@ function greatestProduct(matrix) {
   let greatesSum = 0;
 
   for(let i = 0; i < matrix.length; i++) {
-    let sum = matrix[i][0];
-    for(let j = i; j < 3; j++) {
+    let sum = 1;
+    for(let j = i; j < 4; j++) {
 
       if(i < 17) {
         sum *= matrix[i][j];
